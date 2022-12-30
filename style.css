@@ -60,9 +60,31 @@ body{
 
 .seccion{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    text-align: center;
     margin: 10px;
+    gap: 30px;
+    border: #1f2937 solid 1px;
 }
+    .titulo{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: larger;
+        font-weight: 250;
+        display: flex;
+        margin-left: 50px;
+        width: 150px;
+        border: 1px black solid;
+        align-items: center;
+        justify-content: center;
+        padding: -10px;
+    }
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        border: #1f2937 solid 1px;
+    }
 
 .separador{
     display: block;

@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); </style>
     <style>
-        *{
+        * {
             font-family: 'Roboto', sans-serif;
         }
     </style>
@@ -38,7 +38,7 @@
     </div>
 
     <div class="seccion">
-        <div class="titulo">Resumen Profesional</div>
+        <div class="titulo"><h2>Resumen Profesional</h2></div>
         <div class="descripcion">Directora ejecutiva de operaciones, con amplia experiencia en marketing, TI y RRHH, con 
             experiencia previa en el ambito gastronomico</div>
     </div>
@@ -46,23 +46,41 @@
     <div class="separador"></div>
     
     <div class="seccion">
-        <div class="titulo"> Formacion</div>
-        <div class="descripcion"></div>
+        <div class="titulo"><h2>Formacion</h2></div>
+        <div class="descripcion">
+            <div>Bachiller en Economia</div>
+            <div><strong>Colegio Nacional de San Isidro</strong></div>
+            <div>Licenciatura en Economia</div>
+            <div><strong>Universidad de Buenos Aires </strong></div>
+        </div>
     </div>
     
     <div class="separador"></div>
     
-    <div class="seccion"></div>
-        <div class="titulo">Historial laboral</div>
-        <div class="descripcion"></div>
-    
+    <div id="historial-laboral">
+        <div class="titulo"> <h2>Historial Laboral <button class="mostrar"><i class="fa-solid fa-circle-arrow-down"></i> </button> </h2></div>
+        <div class="descripcion"> </div>
+    </div>
+
         <div class="separador"></div>
     
-    <div class="seccion"></div>
-        <div class="titulo">Aptitudes</div>
-        <div class="descripcion"></div>
+    <div class="seccion">
+        <div class="titulo"><h2>Aptitudes</h2><button class="mostrar"> <i class="fa-solid fa-circle-arrow-right"></i> </button></div>
+        <div class="descripcion">
+            <div class="lista">
+                <ul>
+                    <li>Buen manejo de Office</li>
+                    <li>Ingles Avanzado</li>
+                    <li>Liderazgo</li>
+                    <li>Proactividad</li>
+                    <li>Inteligencia Emocional</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-    <!-- Nota: soy consciente de que separar los divs no le hace nada al HTML, pero me gusta como queda mas prolijo-->
+    <!-- Nota: soy consciente de que la indentacion y poner espacio entre los divs en el source no le hace nada al HTML, 
+        pero me gusta como queda mas prolijo-->
     <script src="script.js"></script>
 </body>
 </html>
