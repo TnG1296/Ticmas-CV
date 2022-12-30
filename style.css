@@ -1,10 +1,25 @@
 
+body{
+    display: flex;
+    margin: 0px;
+}
 
+#texto_ppal{
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex: 5 1 auto;
+}
 
+#columna_izquierda{
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex: 1 1 auto;
+}
 /*
-
-
-
 Etapa 2
 Ya tenemos la información que vamos a llevar al proyecto, ahora debemos elegir qué elementos HTML le darán vida. 
 Considerá utilizar la barra de navegación con links ancla, listas desordenadas, foto de perfil, entre otros elementos que 
