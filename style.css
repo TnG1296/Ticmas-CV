@@ -24,16 +24,34 @@ body{
             .links{
                 margin: 20px;
             }
+                a { 
+                    color: inherit; 
+                    text-decoration: none;
+                }   
+                a:hover {
+                    color:#00A0C6; 
+                    text-decoration:none; 
+                    cursor:pointer;  
+                }
 
-    #foto {
-        display: inline;
-        border: black 1px solid;
-        width: 200px;
-        height: 200px;
-        border-radius: 50px;
+    .espacio-blanco {
+        width: 300px;
+        height: 100px;
         background-color: lightblue;
-
     }
+    .contenedor-foto {
+        position: absolute;
+        bottom: 180px;
+        left: 50px; 
+        }
+        #foto {
+            display: block;
+            border: black 1px solid;
+            width: 200px;
+            height: 200px;
+            border-radius: 50px;
+            background-color: lightblue;
+            }
 
     #nombre {
         background-color: #1f2937;
