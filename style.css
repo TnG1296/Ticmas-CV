@@ -4,8 +4,44 @@ body{
     flex-direction: column;
     flex: 1 0 auto;
 }
+#encabezado {
+    display: flex;
+    flex-direction: column;
+}
 
+    #contacto {
+        background-color: lightblue;
+        color:#1f2937;
+        display: flex;
+        gap: 20px;
+    }
+        .contacto2{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+            .links{
+                margin: 20px;
+            }
 
+    #foto {
+        display: inline;
+        border: black 1px solid;
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+        background-color: lightblue;
+
+    }
+
+    #nombre {
+        background-color: #1f2937;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        font-size: large;
+    }
 /*
 Etapa 2
 Ya tenemos la información que vamos a llevar al proyecto, ahora debemos elegir qué elementos HTML le darán vida. 
