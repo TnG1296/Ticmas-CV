@@ -1,24 +1,11 @@
-
 body{
-    display: flex;
     margin: 0px;
-}
-
-#texto_ppal{
-    border: solid black 1px;
     display: flex;
     flex-direction: column;
-    height: auto;
-    flex: 5 1 auto;
+    flex: 1 0 auto;
 }
 
-#columna_izquierda{
-    border: solid black 1px;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    flex: 1 1 auto;
-}
+
 /*
 Etapa 2
 Ya tenemos la información que vamos a llevar al proyecto, ahora debemos elegir qué elementos HTML le darán vida. 
@@ -29,8 +16,8 @@ hagan que tu CV sea único
 Etapa 3
 Ahora que ya tenés la información y la estructura, vamos a agregarle diseño al CV. Para ello, te proponemos que con CSS le puedas 
 otorgar los estilos que consideres necesarios para que el CV se vea impecable. Podés importar tipografías de Google Fonts
-(opens in a new tab), utilizar una foto tuya y usar Font Awesome(opens in a new tab) para emplear íconos que ilustren el proyecto.
-
+(opens in a new tab), utilizar una foto tuya y usar Font Awesome para emplear íconos que ilustren el proyecto.
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
 Etapa 4
 Ahora incorporaremos funcionalidades que implementan JavaScript, de manera tal que sumemos comportamientos a lo desarrollado. 

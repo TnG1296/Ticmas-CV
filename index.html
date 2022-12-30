@@ -7,21 +7,35 @@
     <title>Curriculum Vitae TICMAS</title>
 
     <link rel='stylesheet' href='style.css'/>
+    <!-- Estos links incluyen el font Roboto de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); </style>
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+    <!-- Este link aniade font awesome-->
+    <script src="https://kit.fontawesome.com/c9ff92738d.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <div id="columna_izquierda">  
-        <div class="seccion">Foto</div>
-        <div class="seccion">Contacto</div>
-        <div class="seccion">Aptitudes</div>
-        <div class="seccion">Info complementaria</div>
+    <div class="encabezado">
+        <div id="contacto">
+            <div><i class="fa-brands fa-linkedin"></i> Linkedin:https://www.linkedin.com/in/esperanza-castillo-7a9asddasda29417a/ </div>
+            <div> <i class="fa-solid fa-envelope"></i> Esperanza.castillo@example.com</div>
+        <div id="foto"> <img src="https://randomuser.me/api/portraits/women/18.jpg" alt="Foto profesional de Esperanza Castillo"></div>
+        <div id="nombre"> <h1> Esperanza Castillo</h1></div>
+        </div>
     </div>
-    <div id="texto_ppal">
-        <div class="seccion">Nombre</div>
-        <div class="seccion">Resumen profesional</div>
-        <div class="seccion">Formacion</div>
-        <div class="seccion">Idiomas</div>
-    </div>
+    <div id="resumen-profesional"></div>
+    <div id="formacion"></div>
+    <div id="historial laboral"></div>
+    <div id="aptitudes"></div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
