@@ -37,6 +37,7 @@ body{
         width: 300px;
         height: 100px;
     }
+
     .contenedor-foto {
         position: absolute;
         top: 10px;
@@ -60,8 +61,9 @@ body{
 
 .seccion{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    text-align: center;
+    height: fit-content;
     margin: 10px;
     gap: 30px;
     border: #1f2937 solid 1px;
@@ -73,6 +75,7 @@ body{
         display: flex;
         margin-left: 50px;
         width: 150px;
+        height: fit-content;
         border: 1px black solid;
         align-items: center;
         justify-content: center;
@@ -81,10 +84,14 @@ body{
     .descripcion{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         border: #1f2937 solid 1px;
     }
+        .descripcion div{
+            text-align: left;
+            border: #1f2937 1px solid;
+        }
 
 .separador{
     display: block;
