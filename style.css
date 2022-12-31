@@ -66,7 +66,6 @@ body{
     flex-direction: row;
     margin: 10px;
     gap: 30px;
-    border: #1f2937 solid 1px;
 }
     .titulo{
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -74,16 +73,13 @@ body{
         margin-left: 50px;
         width: 350px;
         height: fit-content;
-        border: 1px black solid;
         padding: -10px;
     }
     .descripcion{
         width: 1000px;
-        border: #1f2937 solid 1px;
     }
         .descripcion div{
             text-align: left;
-            border: #1f2937 1px solid;
         }
     
 #experiencia-laboral,#Aptitudes {
@@ -93,7 +89,6 @@ body{
         flex-direction: row;
         margin: 10px;
         gap: 30px;
-        border: #1f2937 solid 1px;
 }
 .separador{
     display: block;
@@ -102,7 +97,12 @@ body{
     margin: 10px;
 }
 
-
+#pie-de-pagina {
+    height: 50px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
     /*
 Etapa 2
 Ya tenemos la información que vamos a llevar al proyecto, ahora debemos elegir qué elementos HTML le darán vida. 
