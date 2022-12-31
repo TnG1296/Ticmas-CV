@@ -61,31 +61,24 @@ body{
 
 .seccion{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-content: flex-start;
-    height: fit-content;
     margin: 10px;
     gap: 30px;
     border: #1f2937 solid 1px;
 }
     .titulo{
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: larger;
         font-weight: 250;
-        display: flex;
         margin-left: 50px;
         width: 150px;
         height: fit-content;
         border: 1px black solid;
-        align-items: center;
-        justify-content: center;
         padding: -10px;
     }
     .descripcion{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        width: 500px;
         border: #1f2937 solid 1px;
     }
         .descripcion div{
