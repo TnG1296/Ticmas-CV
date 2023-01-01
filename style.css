@@ -77,12 +77,18 @@ body{
     }
     .descripcion{
         width: 1000px;
-        display: block;
-        transition-property: display;
+        display: none;
+        opacity: 0;
+        transition-property: display, opacity;
+        transition-timing-function: ease-in-out;
+        transition-duration: 3s;
     }
-        .descripcion-revelada{
+        .descripcion-revelada {
             display: block;
-            transition-property: display;
+            opacity: 1;
+            transition-property: display, opacity;
+            transition-timing-function: ease-in-out;
+            transition-duration: 4s;
         }
 
     
@@ -95,13 +101,21 @@ body{
     margin-left: 59px;
 }
 
-.flecha{
-    transition-property:transform
+button{
+    border-radius: 100px;
+    padding: 0px;
 }
-    .flecha-girada{
+
+.boton{
+    transition-property:transform ;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+}
+    .boton-girado{
         transform: rotate(90deg);
         transition-property: transform;
-        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        transition-duration: 3s;
     }
 
 
