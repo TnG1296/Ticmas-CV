@@ -1,12 +1,4 @@
 
-function revelarTexto() {
-  document.getElementById("resumen-profesional").style.display = block;
-}
-
-const boton = document.getElementById("#boton-resumen");
-boton.addEventListener("click", revelarTexto);
-
-
 
 /*
 fetch ('https://randomuser.me/api/')

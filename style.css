@@ -77,37 +77,34 @@ body{
     }
     .descripcion{
         width: 1000px;
-        display: none;
-        flex-direction: column;
-        justify-content: center;
+        display: block;
         transition-property: display;
     }
-        .descripcion div{
-            text-align: left;
+        .descripcion-revelada{
+            display: block;
+            transition-property: display;
         }
+
     
 .separador{
     display: block;
     height: 5px;
     background-color: lightblue;
     margin: 10px;
+    width: 1243px;
+    margin-left: 59px;
 }
-
-
 
 .flecha{
     transition-property:transform
 }
-.flecha-girada{
-    transform: rotate(90deg);
-    transition-property: transform;
-    transition-duration: 1s;
-}
+    .flecha-girada{
+        transform: rotate(90deg);
+        transition-property: transform;
+        transition-duration: 1s;
+    }
 
-.descripcion-revelada{
-    display: block;
-    transition-property: display;
-}
+
 
 /*
 Etapa 4

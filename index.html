@@ -37,25 +37,25 @@
         <div id="nombre"> <h1> Esperanza Castillo</h1></div>
     </div>
 
-    <div id="resumen-profesional" class="seccion">
+    <div class="seccion">
         <div class="titulo"> 
             <h2>Resumen profesional 
-                <button id="boton-resumen"> <i class="fa-solid fa-circle-arrow-right"></i></button>  
+                <button id="boton-1" onclick="revelarTexto()"> <i class="fa-solid fa-circle-arrow-right"></i></button> 
             </h2>
         </div>
-        <div class="descripcion">Directora ejecutiva de operaciones, con amplia experiencia en marketing, TI y RRHH, con 
+        <div class="descripcion" id="seccion-1">Directora ejecutiva de operaciones, con amplia experiencia en marketing, TI y RRHH, con 
             experiencia previa en el ambito gastronomico</div>
     </div>
     
     <div class="separador"></div>
     
-    <div id="formacion" class="seccion">
+    <div class="seccion">
         <div class="titulo"> 
             <h2>Formacion 
-                <button class="flecha"> <i class="fa-solid fa-circle-arrow-right"></i></button> 
+                <button id="boton-2" onclick="revelarTexto()"> <i class="fa-solid fa-circle-arrow-right"></i></button> 
             </h2>
         </div>
-        <div class="descripcion">
+        <div class="descripcion" id="seccion-2">
             <div> <em> Bachiller en Economia </em> - <strong>Colegio Nacional de San Isidro</strong></div>
             <div> <em> Licenciatura en Economia </em>- <strong>Universidad de Buenos Aires </strong></div>
         </div>
@@ -63,13 +63,13 @@
     
     <div class="separador"></div>
     
-    <div id="experiencia-laboral" class="seccion">
+    <div class="seccion">
         <div class="titulo"> 
             <h2>Experiencia Laboral 
-                <button class="flecha"> <i class="fa-solid fa-circle-arrow-right"></i></button> 
+                <button id="boton-3" onclick="revelarTexto()"> <i class="fa-solid fa-circle-arrow-right"></i></button> 
             </h2>
         </div>
-        <div class="descripcion"> 
+        <div class="descripcion" id="seccion-3">
             <p> <strong> 12/10/2020 - Actualidad: Vicepresidenta Ejecutiva McDonalds - Argentina</strong> </p>
             <ul>  
                 <li> Direccion de las operaciones relacionadas con la marca (marketing, TI, RR. HH) de mas de 200 establecimientos</li>
@@ -85,15 +85,15 @@
         </div>
     </div>
 
-        <div class="separador"></div>
+    <div class="separador"></div>
     
     <div id="Aptitudes" class="seccion">
         <div class="titulo">
             <h2>Aptitudes 
-                <button class="flecha"> <i class="fa-solid fa-circle-arrow-right"></i></button> 
+                <button id="boton-3" onclick="revelarTexto()"> <i class="fa-solid fa-circle-arrow-right"></i></button> 
             </h2>
         </div>
-        <div class="descripcion">
+        <div class="descripcion" id="seccion-4">
             <div class="lista">
                 <ul>
                     <li>Buen manejo de Office</li>
@@ -105,7 +105,7 @@
             </div>
         </div>
     </div>
-
+    
     <!-- Nota: soy consciente de que la indentacion y poner espacio entre los divs en el source no le hace nada al HTML, 
         pero me gusta como queda mas prolijo-->
     <script src="script.js"></script>
