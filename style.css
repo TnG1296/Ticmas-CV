@@ -93,12 +93,6 @@ body{
     margin: 10px;
 }
 
-#pie-de-pagina {
-    height: 50px;
-    display: flex;
-    justify-content: center;    
-    align-items: center;
-}
 
 
 .flecha{
