@@ -1,13 +1,9 @@
 
-
-
-
-function revelarTexto() {
-  const texto = document.getElementById("seccion-1");
+function revelarTexto(x) {
+  const texto = document.getElementById("seccion-" + x);
+  const boton = document.getElementById("boton-" + x)
   texto.classList.toggle("descripcion-revelada") ;
-  const boton = document.getElementById("boton-1")
   boton.classList.toggle("boton-girado") ;
-
 }
 
 /*

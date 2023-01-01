@@ -19,6 +19,8 @@ body{
             align-items: center;
             flex-direction: column;
             gap: 20px;
+            flex: 1 1 1;
+
         }
             .links{
                 margin: 20px;
@@ -36,6 +38,7 @@ body{
     .espacio-blanco {
         width: 300px;
         height: 100px;
+        display: block;
     }
 
     .contenedor-foto {
@@ -57,7 +60,12 @@ body{
         text-align: center;
         font-weight: 600;
         font-size: large;
+        display: flex;
+        gap: 15px;
     }
+        h1{
+            text-align: center;
+        }
 
 .seccion{
     display: flex;
@@ -77,18 +85,13 @@ body{
     }
     .descripcion{
         width: 1000px;
-        display: none;
+        display: block;
         opacity: 0;
-        transition-property: display, opacity;
-        transition-timing-function: ease-in-out;
-        transition-duration: 3s;
+        transition: opacity 2s ease-in;
     }
         .descripcion-revelada {
-            display: block;
             opacity: 1;
-            transition-property: display, opacity;
-            transition-timing-function: ease-in-out;
-            transition-duration: 4s;
+            transition: opacity 2s ease-in;
         }
 
     
@@ -103,27 +106,23 @@ body{
 
 button{
     border-radius: 100px;
+    border: 0px;
     padding: 0px;
 }
 
 .boton{
     transition-property:transform ;
     transition-timing-function: ease-in-out;
-    transition-duration: 3s;
+    transition-duration: 1s;
+    padding: 10px;
 }
     .boton-girado{
         transform: rotate(90deg);
         transition-property: transform;
         transition-timing-function: ease-in-out;
-        transition-duration: 3s;
+        transition-duration: 1s;
     }
 
 
 
-/*
-Etapa 4
-Ahora incorporaremos funcionalidades que implementan JavaScript, de manera tal que sumemos comportamientos a lo desarrollado. 
-Por ejemplo, dar información complementaria cuando el usuario haga clic sobre determinados botones. Para ello, tendremos que 
-trabajar con los eventos vistos, más los que quieras incorporar. 
-*/
 
